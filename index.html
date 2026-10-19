@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Jadwal Kuliah 2023 B</title>
+<title>Jadwal Kuliah</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
 <style>
@@ -59,7 +59,7 @@ footer a{color:var(--accent)}
 </head>
 <body>
 <main>
-<header><h1>Jadwal kuliah 2023 B</h1><p id="room"></p></header>
+<header><h1 id="kelas">Jadwal kuliah</h1><p id="room"></p></header>
 <div class="hero"><div><h2 id="day"></h2><p class="sub" id="sub"></p></div>
 <div class="nav"><button id="prev" aria-label="Hari sebelumnya">‹</button><button id="today" class="today">Hari ini</button><button id="next" aria-label="Hari berikutnya">›</button></div></div>
 <div id="now"></div>
@@ -112,7 +112,7 @@ function step(dir){const ks=Object.keys(byDate).sort();
   if(dir>0){const nx=ks.find(k=>k>sel&&byDate[k].sesi.length);if(nx)go(nx)}else{const pv=[...ks].reverse().find(k=>k<sel&&byDate[k].sesi.length);if(pv)go(pv)}}
 function init(data){
   D=data;D.hari.forEach(x=>byDate[x.tanggal]=x);
-  $("room").textContent=D.meta.ruang;
+  $("kelas").textContent="Jadwal kuliah "+D.meta.kelas;document.title="Jadwal kuliah "+D.meta.kelas;$("room").textContent=D.meta.ruang;
   const ks=Object.keys(byDate).sort(),t=iso(new Date());
   sel=byDate[t]?t:(ks.find(k=>k>t&&byDate[k].sesi.length)||ks.filter(k=>byDate[k].sesi.length).pop()||ks[0]);
   const up=D.meta.diperbarui?fmt(new Date(D.meta.diperbarui),{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}):"";
