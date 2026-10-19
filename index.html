@@ -5,56 +5,60 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Jadwal Kuliah</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Pacifico&display=swap" rel="stylesheet">
 <style>
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
---bg:#eef3f4;--surface:#fff;--ink:#12262b;--muted:#5c7075;--line:#d3dee0;--accent:#0f5c63;--accent-ink:#fff;
---warn:#a8321f;--warn-bg:#fbe9e5;--swap:#8a5d00;--swap-bg:#fff3d6;--exam:#5a3d9e;--exam-bg:#ece6fa}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1a1d;--surface:#16272b;--ink:#e6f0f1;--muted:#93a9ad;--line:#2a4046;--accent:#5fc3cb;--accent-ink:#06282b;--warn:#ff9c8a;--warn-bg:#3a1d19;--swap:#f2c15c;--swap-bg:#3a2e12;--exam:#c3b0f5;--exam-bg:#2b2342}}
-:root[data-theme="dark"]{--bg:#0d1a1d;--surface:#16272b;--ink:#e6f0f1;--muted:#93a9ad;--line:#2a4046;--accent:#5fc3cb;--accent-ink:#06282b;--warn:#ff9c8a;--warn-bg:#3a1d19;--swap:#f2c15c;--swap-bg:#3a2e12;--exam:#c3b0f5;--exam-bg:#2b2342}
+--bg:#fcf0ff;--surface:#fff;--ink:#43225f;--muted:#9068b0;--line:#f1d2fb;--accent:#a93fdc;--accent2:#e2489f;--accent-ink:#fff;--soft:#f7e0ff;--blush:#ffe2f1;
+--warn:#bf2f4b;--warn-bg:#ffe3e8;--swap:#955700;--swap-bg:#fff0cc;--exam:#1b66ad;--exam-bg:#dcecfb}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#22112f;--surface:#341b47;--ink:#ffeefa;--muted:#d8b0ee;--line:#55306d;--accent:#dba5ff;--accent2:#ff8fcf;--accent-ink:#2a0f3c;--soft:#452059;--blush:#52214a;--warn:#ff9fb0;--warn-bg:#4a1c28;--swap:#f6c868;--swap-bg:#46321a;--exam:#8cc4ff;--exam-bg:#1a3550}}
+:root[data-theme="dark"]{--bg:#22112f;--surface:#341b47;--ink:#ffeefa;--muted:#d8b0ee;--line:#55306d;--accent:#dba5ff;--accent2:#ff8fcf;--accent-ink:#2a0f3c;--soft:#452059;--blush:#52214a;--warn:#ff9fb0;--warn-bg:#4a1c28;--swap:#f6c868;--swap-bg:#46321a;--exam:#8cc4ff;--exam-bg:#1a3550}
 *,*::before,*::after{box-sizing:inherit}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 "Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif}
-main{max-width:640px;margin:0 auto;padding:20px 16px 40px}
+body{margin:0;color:var(--ink);font:600 16px/1.5 "Quicksand",system-ui,-apple-system,"Segoe UI",sans-serif;
+background:radial-gradient(420px 300px at 100% 0,var(--blush),transparent 70%),radial-gradient(420px 320px at 0 60%,var(--soft),transparent 70%),radial-gradient(380px 300px at 100% 100%,var(--blush),transparent 70%),var(--bg);background-attachment:fixed}
+main{max-width:640px;margin:0 auto;padding:20px 16px 44px}
 button{font:inherit;color:inherit;cursor:pointer}
-:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-header h1{margin:0;font-size:15px;font-weight:700;color:var(--muted)}
+:focus-visible{outline:3px solid var(--accent2);outline-offset:2px}
+header h1{margin:0;font-size:16px;font-weight:700;color:var(--accent)}
 header p{margin:2px 0 0;font-size:13px;color:var(--muted)}
-.hero{margin:18px 0 14px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
-.hero h2{margin:0;font-size:clamp(34px,10vw,48px);line-height:1;font-weight:800;letter-spacing:-.03em}
-.hero .sub{margin:6px 0 0;color:var(--muted);font-size:15px}
+.hero{margin:16px 0 14px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.hero h2{margin:0;font:400 clamp(40px,12vw,58px)/1.1 "Pacifico",cursive;background:linear-gradient(100deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent;display:inline-block}
+.hero h2::after{content:"✨";font-size:.45em;margin-left:6px;-webkit-text-fill-color:initial}
+.hero .sub{margin:4px 0 0;color:var(--muted);font-size:15px}
 .nav{display:flex;gap:6px}
-.nav button{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--surface);font-size:18px}
-.nav button.today{width:auto;white-space:nowrap;padding:0 14px;border-radius:22px;font-size:14px;font-weight:700}
-.now{margin:0 0 16px;padding:14px 16px;border-radius:14px;background:var(--accent);color:var(--accent-ink);font-weight:700}
-.now small{display:block;font-weight:400;opacity:.85}
+.nav button{width:44px;height:44px;border-radius:50%;border:2px solid var(--line);background:var(--surface);font-size:18px;color:var(--accent);font-weight:700}
+.nav button.today{width:auto;white-space:nowrap;padding:0 16px;border-radius:22px;font-size:14px;font-weight:700;background:linear-gradient(120deg,var(--accent),var(--accent2));border-color:transparent;color:var(--accent-ink)}
+.now{position:relative;margin:0 0 16px;padding:14px 56px 14px 18px;border-radius:26px;background:linear-gradient(120deg,var(--accent),var(--accent2));color:var(--accent-ink);font-weight:700;box-shadow:0 10px 22px -10px var(--accent2)}
+.now::after{content:"💫";position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:26px}
+.now small{display:block;font-weight:600;opacity:.92}
 .week{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin-bottom:22px}
-.week button{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:8px 0 6px;text-align:center;min-height:56px}
+.week button{border:2px solid var(--line);background:var(--surface);border-radius:20px;padding:8px 0 6px;text-align:center;min-height:60px}
 .week b{display:block;font-size:17px}
 .week span{font-size:12px;color:var(--muted)}
-.week i{display:block;width:6px;height:6px;margin:3px auto 0;border-radius:50%;background:transparent}
-.week .has i{background:var(--accent)}
-.week .sel{background:var(--ink);border-color:var(--ink);color:var(--bg)}
-.week .sel span{color:var(--bg);opacity:.8}.week .sel.has i{background:var(--bg)}
-.week .tdy:not(.sel){border:2px solid var(--accent)}
+.week i{display:block;height:12px;margin-top:1px;font-style:normal;font-size:10px;line-height:12px;color:var(--accent2)}
+.week .has i::before{content:"♥"}
+.week .sel{background:linear-gradient(160deg,var(--accent),var(--accent2));border-color:transparent;color:var(--accent-ink)}
+.week .sel span,.week .sel i{color:var(--accent-ink)}.week .sel span{opacity:.92}
+.week .tdy:not(.sel){border-color:var(--accent2);border-style:dashed}
 ol{list-style:none;margin:0;padding:0}
-.s{display:grid;grid-template-columns:62px 1fr;gap:12px;position:relative}
-.t{font-variant-numeric:tabular-nums;text-align:right;padding-top:14px;line-height:1.25}
-.t b{display:block;font-size:17px}.t span{font-size:13px;color:var(--muted)}
-.c{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:12px;padding:12px 14px;margin-bottom:10px}
-.c h3{margin:0;font-size:17px;line-height:1.3}
+.s{display:grid;grid-template-columns:62px 1fr;gap:10px}
+.t{font-variant-numeric:tabular-nums;text-align:right;padding-top:12px;line-height:1.25}
+.t b{display:inline-block;font-size:15px;padding:1px 9px;border-radius:99px;background:var(--soft);color:var(--accent)}.t span{display:block;margin-right:9px;font-size:12px;color:var(--muted)}
+.c{position:relative;background:var(--surface);border:3px solid var(--surface);border-radius:26px;padding:12px 16px 12px 62px;margin-bottom:12px;box-shadow:0 6px 18px -8px var(--accent2),0 0 0 2px var(--line)}
+.ic{position:absolute;left:12px;top:12px;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-size:19px;background:var(--soft)}
+.c h3{margin:0;font-size:17px;line-height:1.3;font-weight:700}
 .c p{margin:3px 0 0;font-size:14px;color:var(--muted)}
-.tag{display:inline-block;margin:0 6px 4px 0;padding:1px 9px;border-radius:99px;font-size:12px;font-weight:700;background:var(--line);color:var(--ink)}
-.c.ditunda{border-left-color:var(--warn)}.c.ditunda h3{text-decoration:line-through;color:var(--muted)}
-.c.ganti{border-left-color:var(--swap)}.c.ujian{border-left-color:var(--exam)}
+.tag{display:inline-block;margin:0 6px 4px 0;padding:1px 10px;border-radius:99px;font-size:12px;font-weight:700;background:var(--blush);color:var(--accent2)}
+.c.ditunda .ic{background:var(--warn-bg)}.c.ditunda h3{text-decoration:line-through;color:var(--muted)}
+.c.ganti .ic{background:var(--swap-bg)}.c.ujian .ic{background:var(--exam-bg)}
 .tag.ditunda{background:var(--warn-bg);color:var(--warn)}.tag.ganti{background:var(--swap-bg);color:var(--swap)}.tag.ujian{background:var(--exam-bg);color:var(--exam)}
-.s.live .c{box-shadow:0 0 0 2px var(--accent)}
-.empty{padding:28px 16px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:12px}
-.forum{margin-top:22px}.forum h4{margin:0 0 6px;font-size:15px}
-.forum li{padding:8px 0;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+.s.live .c{box-shadow:0 0 0 3px var(--accent2),0 8px 22px -8px var(--accent2)}
+.empty{padding:30px 16px;text-align:center;color:var(--muted);border:3px dotted var(--line);border-radius:26px;background:var(--surface)}
+.forum{margin-top:22px}.forum h4{margin:0 0 6px;font-size:15px;color:var(--accent)}
+.forum li{padding:8px 0;border-top:2px dotted var(--line);font-size:14px;color:var(--muted)}
 footer{margin-top:30px;font-size:13px;color:var(--muted)}
 footer a{color:var(--accent)}
-@media (prefers-reduced-motion:no-preference){.c{transition:box-shadow .2s}}
+@media (prefers-reduced-motion:no-preference){.week button{transition:transform .15s}.week button:active{transform:scale(.93)}}
 </style>
 </head>
 <body>
@@ -68,6 +72,7 @@ footer a{color:var(--accent)}
 <footer id="foot"></footer>
 </main>
 <script>
+const ICON={kuliah:"📖",kkd:"🩺",sgd:"💬",praktikum:"🔬",tes:"📝",ujian:"🎀",tugas:"📌"};
 const JENIS={kkd:"KKD",sgd:"SGD",praktikum:"Praktikum",tes:"Tes",ujian:"Ujian",tugas:"Tugas"};
 const $=id=>document.getElementById(id), esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
@@ -102,8 +107,8 @@ function render(){
     h+="<ol>"+day.sesi.map(s=>{
       const live=isToday&&s.status!=="ditunda"&&mins(s.mulai)<=cm&&cm<mins(s.selesai);
       const tags=(s.status==="ditunda"?'<span class="tag ditunda">Ditunda</span>':s.status==="ganti"?'<span class="tag ganti">Kuliah pengganti</span>':"")+(JENIS[s.jenis]?`<span class="tag ${s.jenis==="ujian"?"ujian":""}">${JENIS[s.jenis]}</span>`:"");
-      return`<li class="s${live?" live":""}"><div class="t"><b>${pad(s.mulai)}</b><span>${pad(s.selesai)}</span></div><div class="c ${s.status} ${s.jenis==="ujian"?"ujian":""}">${tags}<h3>${esc(s.judul)}</h3>${s.dosen?`<p>${esc(s.dosen)}</p>`:""}</div></li>`}).join("")+"</ol>";
-  }else h+=`<div class="empty">${day?"Tidak ada sesi di hari ini.":"Jadwal untuk tanggal ini belum diisi fakultas."}</div>`;
+      return`<li class="s${live?" live":""}"><div class="t"><b>${pad(s.mulai)}</b><span>${pad(s.selesai)}</span></div><div class="c ${s.status} ${s.jenis==="ujian"?"ujian":""}"><span class="ic">${s.status==="ditunda"?"⏸️":s.status==="ganti"?"🔁":(ICON[s.jenis]||"📖")}</span>${tags}<h3>${esc(s.judul)}</h3>${s.dosen?`<p>${esc(s.dosen)}</p>`:""}</div></li>`}).join("")+"</ol>";
+  }else h+=`<div class="empty">${day?"Tidak ada sesi hari ini, waktunya santai 🦋":"Jadwal untuk tanggal ini belum diisi fakultas."}</div>`;
   if(day&&day.forum.length)h+=`<div class="forum"><h4>Diskusi forum (daring)</h4><ul style="list-style:none;padding:0;margin:0">${day.forum.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></div>`;
   $("list").innerHTML=h;
 }
@@ -112,7 +117,7 @@ function step(dir){const ks=Object.keys(byDate).sort();
   if(dir>0){const nx=ks.find(k=>k>sel&&byDate[k].sesi.length);if(nx)go(nx)}else{const pv=[...ks].reverse().find(k=>k<sel&&byDate[k].sesi.length);if(pv)go(pv)}}
 function init(data){
   D=data;D.hari.forEach(x=>byDate[x.tanggal]=x);
-  $("kelas").textContent="Jadwal kuliah "+D.meta.kelas;document.title="Jadwal kuliah "+D.meta.kelas;$("room").textContent=D.meta.ruang;
+  $("kelas").textContent="🎀 Jadwal kuliah "+D.meta.kelas;document.title="Jadwal kuliah "+D.meta.kelas;$("room").textContent=D.meta.ruang;
   const ks=Object.keys(byDate).sort(),t=iso(new Date());
   sel=byDate[t]?t:(ks.find(k=>k>t&&byDate[k].sesi.length)||ks.filter(k=>byDate[k].sesi.length).pop()||ks[0]);
   const up=D.meta.diperbarui?fmt(new Date(D.meta.diperbarui),{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}):"";
