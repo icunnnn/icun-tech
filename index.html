@@ -1,29 +1,129 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>icun.tech</title>
-    <style>
-        body {
-            margin: 0;
-            min-height: 100vh;
-            display: grid;
-            place-items: center;
-            background: #101014;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        h1 { font-size: 48px; }
-        p { color: #aaa; }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jadwal Kuliah 2023 B</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#eef3f4;--surface:#fff;--ink:#12262b;--muted:#5c7075;--line:#d3dee0;--accent:#0f5c63;--accent-ink:#fff;
+--warn:#a8321f;--warn-bg:#fbe9e5;--swap:#8a5d00;--swap-bg:#fff3d6;--exam:#5a3d9e;--exam-bg:#ece6fa}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1a1d;--surface:#16272b;--ink:#e6f0f1;--muted:#93a9ad;--line:#2a4046;--accent:#5fc3cb;--accent-ink:#06282b;--warn:#ff9c8a;--warn-bg:#3a1d19;--swap:#f2c15c;--swap-bg:#3a2e12;--exam:#c3b0f5;--exam-bg:#2b2342}}
+:root[data-theme="dark"]{--bg:#0d1a1d;--surface:#16272b;--ink:#e6f0f1;--muted:#93a9ad;--line:#2a4046;--accent:#5fc3cb;--accent-ink:#06282b;--warn:#ff9c8a;--warn-bg:#3a1d19;--swap:#f2c15c;--swap-bg:#3a2e12;--exam:#c3b0f5;--exam-bg:#2b2342}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 "Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:640px;margin:0 auto;padding:20px 16px 40px}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+header h1{margin:0;font-size:15px;font-weight:700;color:var(--muted)}
+header p{margin:2px 0 0;font-size:13px;color:var(--muted)}
+.hero{margin:18px 0 14px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.hero h2{margin:0;font-size:clamp(34px,10vw,48px);line-height:1;font-weight:800;letter-spacing:-.03em}
+.hero .sub{margin:6px 0 0;color:var(--muted);font-size:15px}
+.nav{display:flex;gap:6px}
+.nav button{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--surface);font-size:18px}
+.nav button.today{width:auto;white-space:nowrap;padding:0 14px;border-radius:22px;font-size:14px;font-weight:700}
+.now{margin:0 0 16px;padding:14px 16px;border-radius:14px;background:var(--accent);color:var(--accent-ink);font-weight:700}
+.now small{display:block;font-weight:400;opacity:.85}
+.week{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin-bottom:22px}
+.week button{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:8px 0 6px;text-align:center;min-height:56px}
+.week b{display:block;font-size:17px}
+.week span{font-size:12px;color:var(--muted)}
+.week i{display:block;width:6px;height:6px;margin:3px auto 0;border-radius:50%;background:transparent}
+.week .has i{background:var(--accent)}
+.week .sel{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.week .sel span{color:var(--bg);opacity:.8}.week .sel.has i{background:var(--bg)}
+.week .tdy:not(.sel){border:2px solid var(--accent)}
+ol{list-style:none;margin:0;padding:0}
+.s{display:grid;grid-template-columns:62px 1fr;gap:12px;position:relative}
+.t{font-variant-numeric:tabular-nums;text-align:right;padding-top:14px;line-height:1.25}
+.t b{display:block;font-size:17px}.t span{font-size:13px;color:var(--muted)}
+.c{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:12px;padding:12px 14px;margin-bottom:10px}
+.c h3{margin:0;font-size:17px;line-height:1.3}
+.c p{margin:3px 0 0;font-size:14px;color:var(--muted)}
+.tag{display:inline-block;margin:0 6px 4px 0;padding:1px 9px;border-radius:99px;font-size:12px;font-weight:700;background:var(--line);color:var(--ink)}
+.c.ditunda{border-left-color:var(--warn)}.c.ditunda h3{text-decoration:line-through;color:var(--muted)}
+.c.ganti{border-left-color:var(--swap)}.c.ujian{border-left-color:var(--exam)}
+.tag.ditunda{background:var(--warn-bg);color:var(--warn)}.tag.ganti{background:var(--swap-bg);color:var(--swap)}.tag.ujian{background:var(--exam-bg);color:var(--exam)}
+.s.live .c{box-shadow:0 0 0 2px var(--accent)}
+.empty{padding:28px 16px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:12px}
+.forum{margin-top:22px}.forum h4{margin:0 0 6px;font-size:15px}
+.forum li{padding:8px 0;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+footer{margin-top:30px;font-size:13px;color:var(--muted)}
+footer a{color:var(--accent)}
+@media (prefers-reduced-motion:no-preference){.c{transition:box-shadow .2s}}
+</style>
 </head>
 <body>
-    <main>
-        <h1>Welcome to icun.tech</h1>
-        <p>Website pertamaku sudah online!</p>
-    </main>
+<main>
+<header><h1>Jadwal kuliah 2023 B</h1><p id="room"></p></header>
+<div class="hero"><div><h2 id="day"></h2><p class="sub" id="sub"></p></div>
+<div class="nav"><button id="prev" aria-label="Hari sebelumnya">‹</button><button id="today" class="today">Hari ini</button><button id="next" aria-label="Hari berikutnya">›</button></div></div>
+<div id="now"></div>
+<div class="week" id="week" role="group" aria-label="Pilih hari"></div>
+<section id="list" aria-live="polite"></section>
+<footer id="foot"></footer>
+</main>
+<script>
+const JENIS={kkd:"KKD",sgd:"SGD",praktikum:"Praktikum",tes:"Tes",ujian:"Ujian",tugas:"Tugas"};
+const $=id=>document.getElementById(id), esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+const parse=s=>{const[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
+const fmt=(d,o)=>d.toLocaleDateString("id-ID",o);
+let D,byDate={},sel;
+const mins=t=>{const[h,m]=t.split(":").map(Number);return h*60+m};
+const pad=t=>t.replace(/^(\d):/,"0$1:");
+
+function weekOf(d){const m=new Date(d);m.setDate(d.getDate()-((d.getDay()+6)%7));return[...Array(6)].map((_,i)=>{const x=new Date(m);x.setDate(m.getDate()+i);return x})}
+function nowLine(day,isToday){
+  if(!isToday||!day){return""}
+  const n=new Date(),cur=n.getHours()*60+n.getMinutes();
+  const act=day.sesi.filter(s=>s.status!=="ditunda");
+  const live=act.find(s=>mins(s.mulai)<=cur&&cur<mins(s.selesai));
+  if(live)return`<div class="now">Sedang berlangsung: ${esc(live.judul)}<small>sampai ${pad(live.selesai)}</small></div>`;
+  const nx=act.find(s=>mins(s.mulai)>cur);
+  if(nx)return`<div class="now">Berikutnya: ${esc(nx.judul)}<small>pukul ${pad(nx.mulai)}</small></div>`;
+  return act.length?`<div class="now">Kuliah hari ini sudah selesai</div>`:"";
+}
+function render(){
+  const d=parse(sel),day=byDate[sel],todayIso=iso(new Date()),isToday=sel===todayIso;
+  $("day").textContent=fmt(d,{weekday:"long"});
+  const n=day?day.sesi.length:0;
+  $("sub").textContent=fmt(d,{day:"numeric",month:"long",year:"numeric"})+(day&&day.catatan?" · "+day.catatan:"")+(n?" · "+n+" sesi":"");
+  $("now").innerHTML=nowLine(day,isToday);
+  $("week").innerHTML=weekOf(d).map(x=>{const k=iso(x),h=byDate[k]&&byDate[k].sesi.length;
+    return`<button data-d="${k}" class="${h?"has ":""}${k===sel?"sel ":""}${k===todayIso?"tdy":""}" aria-pressed="${k===sel}"><span>${fmt(x,{weekday:"short"})}</span><b>${x.getDate()}</b><i></i></button>`}).join("");
+  const cur=new Date(),cm=cur.getHours()*60+cur.getMinutes();
+  let h="";
+  if(day&&day.sesi.length){
+    h+="<ol>"+day.sesi.map(s=>{
+      const live=isToday&&s.status!=="ditunda"&&mins(s.mulai)<=cm&&cm<mins(s.selesai);
+      const tags=(s.status==="ditunda"?'<span class="tag ditunda">Ditunda</span>':s.status==="ganti"?'<span class="tag ganti">Kuliah pengganti</span>':"")+(JENIS[s.jenis]?`<span class="tag ${s.jenis==="ujian"?"ujian":""}">${JENIS[s.jenis]}</span>`:"");
+      return`<li class="s${live?" live":""}"><div class="t"><b>${pad(s.mulai)}</b><span>${pad(s.selesai)}</span></div><div class="c ${s.status} ${s.jenis==="ujian"?"ujian":""}">${tags}<h3>${esc(s.judul)}</h3>${s.dosen?`<p>${esc(s.dosen)}</p>`:""}</div></li>`}).join("")+"</ol>";
+  }else h+=`<div class="empty">${day?"Tidak ada sesi di hari ini.":"Jadwal untuk tanggal ini belum diisi fakultas."}</div>`;
+  if(day&&day.forum.length)h+=`<div class="forum"><h4>Diskusi forum (daring)</h4><ul style="list-style:none;padding:0;margin:0">${day.forum.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></div>`;
+  $("list").innerHTML=h;
+}
+function go(k){sel=k;render()}
+function step(dir){const ks=Object.keys(byDate).sort();
+  if(dir>0){const nx=ks.find(k=>k>sel&&byDate[k].sesi.length);if(nx)go(nx)}else{const pv=[...ks].reverse().find(k=>k<sel&&byDate[k].sesi.length);if(pv)go(pv)}}
+function init(data){
+  D=data;D.hari.forEach(x=>byDate[x.tanggal]=x);
+  $("room").textContent=D.meta.ruang;
+  const ks=Object.keys(byDate).sort(),t=iso(new Date());
+  sel=byDate[t]?t:(ks.find(k=>k>t&&byDate[k].sesi.length)||ks.filter(k=>byDate[k].sesi.length).pop()||ks[0]);
+  const up=D.meta.diperbarui?fmt(new Date(D.meta.diperbarui),{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}):"";
+  $("foot").innerHTML=(up?`Jadwal terakhir berubah: ${up}. `:"")+`Data diambil otomatis dari <a href="${esc(D.meta.sumber)}" rel="noopener">dokumen resmi fakultas</a>. Jika ada perbedaan, dokumen resmi yang berlaku.`;
+  $("prev").onclick=()=>step(-1);$("next").onclick=()=>step(1);
+  $("today").onclick=()=>{const k=iso(new Date());go(k)};
+  $("week").onclick=e=>{const b=e.target.closest("button");if(b)go(b.dataset.d)};
+  render();setInterval(()=>{if(sel===iso(new Date()))render()},60000);
+}
+(window.__JADWAL__?Promise.resolve(window.__JADWAL__):fetch("jadwal.json",{cache:"no-cache"}).then(r=>r.json()))
+  .then(init).catch(()=>{$("list").innerHTML='<div class="empty">Jadwal gagal dimuat. Coba muat ulang halaman.</div>'});
+</script>
 </body>
 </html>
