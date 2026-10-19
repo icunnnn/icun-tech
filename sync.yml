@@ -1,0 +1,25 @@
+name: Sinkron jadwal
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # tiap 30 menit
+  workflow_dispatch: {}        # bisa dijalankan manual dari tab Actions
+permissions:
+  contents: write
+concurrency: sync-jadwal
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - name: Ambil dan parse jadwal   # gagal = job merah = GitHub kirim email, jadwal lama tetap aman
+        run: python scripts/sync_jadwal.py
+      - name: Commit jika ada perubahan
+        run: |
+          git config user.name "jadwal-bot"
+          git config user.email "jadwal-bot@users.noreply.github.com"
+          git add jadwal.json
+          git diff --cached --quiet || (git commit -m "Perbarui jadwal" && git push)
