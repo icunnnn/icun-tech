@@ -1,7 +1,7 @@
 {
  "meta": {
-  "kelas": "2023 B",
-  "ruang": "Ruang Kelas B, Lt. 3, Gedung A",
+  "kelas": "2023 C",
+  "ruang": "Aula Ibnu Sina, Lt. 7, Gedung B",
   "sumber": "https://docs.google.com/document/d/e/2PACX-1vRKAk68agqoX2OTSK2-XvxVEWf4ZDDq7W8zm8vvzhGb1W1DGjLsUGjI6eFQYaHl3dbLtyU3D9PezHBA/pub",
   "peringatan": [
    "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 15 NOVEMBER 2026",
@@ -25,7 +25,7 @@
    "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 01 DESEMBER 2025",
    "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 02 DESEMBER 2025"
   ],
-  "diperbarui": "2026-10-19T05:13:09+00:00"
+  "diperbarui": "2026-10-19T05:39:33+00:00"
  },
  "hari": [
   {
@@ -38,20 +38,20 @@
    ],
    "sesi": [
     {
-     "judul": "Bag.Ilmu Kedokteran Jiwa",
-     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
-     "status": "",
-     "jenis": "kuliah",
-     "mulai": "09:00",
-     "selesai": "10:00"
-    },
-    {
      "judul": "KKD 1",
      "dosen": "",
      "status": "",
      "jenis": "kkd",
+     "mulai": "08:00",
+     "selesai": "10:00"
+    },
+    {
+     "judul": "Bag.Ilmu Kedokteran Jiwa",
+     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
+     "status": "",
+     "jenis": "kuliah",
      "mulai": "13:30",
-     "selesai": "15:30"
+     "selesai": "14:30"
     }
    ]
   },
@@ -68,8 +68,8 @@
      "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
      "status": "",
      "jenis": "kuliah",
-     "mulai": "08:00",
-     "selesai": "09:00"
+     "mulai": "09:00",
+     "selesai": "10:00"
     },
     {
      "judul": "SGD 1",
@@ -78,14 +78,6 @@
      "jenis": "sgd",
      "mulai": "10:00",
      "selesai": "12:00"
-    },
-    {
-     "judul": "Bag.Ilmu Kedokteran Jiwa",
-     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
-     "status": "",
-     "jenis": "kuliah",
-     "mulai": "14:30",
-     "selesai": "15:30"
     }
    ]
   },
@@ -98,24 +90,24 @@
    ],
    "sesi": [
     {
-     "judul": "Bag.Patologi Klinik",
-     "dosen": "dr. Yuanita Mayasari Aritonang, M.Ked(ClinPath), Sp.PK",
+     "judul": "Bag.Ilmu Kedokteran Jiwa",
+     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
      "status": "",
      "jenis": "kuliah",
      "mulai": "08:00",
      "selesai": "09:00"
     },
     {
-     "judul": "Advance TOEFL",
-     "dosen": "Dr. Bambang Panca Syahputra, M.Hum",
+     "judul": "Bag.Patologi Klinik",
+     "dosen": "dr. Yuanita Mayasari Aritonang, M.Ked(ClinPath), Sp.PK",
      "status": "",
      "jenis": "kuliah",
      "mulai": "09:00",
      "selesai": "10:00"
     },
     {
-     "judul": "Bag.Ilmu Kedokteran Jiwa",
-     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
+     "judul": "Advance TOEFL",
+     "dosen": "Dr. Bambang Panca Syahputra, M.Hum",
      "status": "",
      "jenis": "kuliah",
      "mulai": "10:00",
@@ -126,8 +118,8 @@
      "dosen": "dr. Royyan Ashri, M.K.M",
      "status": "",
      "jenis": "kuliah",
-     "mulai": "13:30",
-     "selesai": "14:30"
+     "mulai": "14:30",
+     "selesai": "15:30"
     }
    ]
   },
@@ -142,24 +134,8 @@
      "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
      "status": "",
      "jenis": "kuliah",
-     "mulai": "08:00",
-     "selesai": "09:00"
-    },
-    {
-     "judul": "KKD 2",
-     "dosen": "",
-     "status": "",
-     "jenis": "kkd",
-     "mulai": "10:00",
-     "selesai": "12:00"
-    },
-    {
-     "judul": "Bag.Forensik",
-     "dosen": "dr. Abdul Gafar Parinduri, M.Ked(For), Sp.F",
-     "status": "",
-     "jenis": "kuliah",
-     "mulai": "13:30",
-     "selesai": "14:30"
+     "mulai": "09:00",
+     "selesai": "10:00"
     }
    ]
   },
@@ -174,8 +150,8 @@
      "dosen": "Prof. Dr. dr. Elmeida Effendy, M.Ked., Sp.K.J., Subsp.B.P. (K)",
      "status": "ditunda",
      "jenis": "kuliah",
-     "mulai": "09:00",
-     "selesai": "10:00"
+     "mulai": "08:00",
+     "selesai": "09:00"
     },
     {
      "judul": "SGD 1",
@@ -184,6 +160,22 @@
      "jenis": "sgd",
      "mulai": "10:00",
      "selesai": "12:00"
+    },
+    {
+     "judul": "Bag.Forensik",
+     "dosen": "dr. Abdul Gafar Parinduri, M.Ked(For), Sp.F",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "13:30",
+     "selesai": "14:30"
+    },
+    {
+     "judul": "KKD 2",
+     "dosen": "",
+     "status": "",
+     "jenis": "kkd",
+     "mulai": "16:00",
+     "selesai": "18:00"
     }
    ]
   },
@@ -203,28 +195,20 @@
    ],
    "sesi": [
     {
-     "judul": "KKD 3",
-     "dosen": "",
-     "status": "",
-     "jenis": "kkd",
-     "mulai": "08:00",
-     "selesai": "10:00"
-    },
-    {
      "judul": "Bag.Ilmu Kedokteran Jiwa",
      "dosen": "Prof. Dr. dr. Elmeida Effendy, M.Ked., Sp.K.J., Subsp.B.P. (K)",
      "status": "",
      "jenis": "kuliah",
-     "mulai": "10:00",
-     "selesai": "11:00"
+     "mulai": "08:00",
+     "selesai": "09:00"
     },
     {
      "judul": "Bag.Forensik",
      "dosen": "dr. Abdul Gafar Parinduri, M.Ked(For), Sp.F",
      "status": "",
      "jenis": "kuliah",
-     "mulai": "13:30",
-     "selesai": "14:30"
+     "mulai": "14:30",
+     "selesai": "15:30"
     }
    ]
   },
@@ -237,6 +221,14 @@
    ],
    "sesi": [
     {
+     "judul": "Bag.Ilmu Kedokteran Jiwa",
+     "dosen": "Prof. Dr. dr. Elmeida Effendy, M.Ked., Sp.K.J., Subsp.B.P. (K)",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
+    {
      "judul": "SGD 2",
      "dosen": "",
      "status": "",
@@ -245,11 +237,11 @@
      "selesai": "12:00"
     },
     {
-     "judul": "Bag.Ilmu Kedokteran Jiwa",
-     "dosen": "Prof. Dr. dr. Elmeida Effendy, M.Ked., Sp.K.J., Subsp.B.P. (K)",
+     "judul": "KKD 3",
+     "dosen": "",
      "status": "",
-     "jenis": "kuliah",
-     "mulai": "14:30",
+     "jenis": "kkd",
+     "mulai": "13:30",
      "selesai": "15:30"
     }
    ]
@@ -263,16 +255,16 @@
    ],
    "sesi": [
     {
-     "judul": "Advance TOEFL",
-     "dosen": "Dr. Bambang Panca Syahputra, M.Hum",
-     "status": "",
-     "jenis": "kuliah",
-     "mulai": "09:00",
-     "selesai": "10:00"
-    },
-    {
      "judul": "Bag.Ilmu Kedokteran Jiwa",
      "dosen": "Prof. Dr. dr. Elmeida Effendy, M.Ked., Sp.K.J., Subsp.B.P. (K)",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
+    {
+     "judul": "Advance TOEFL",
+     "dosen": "Dr. Bambang Panca Syahputra, M.Hum",
      "status": "",
      "jenis": "kuliah",
      "mulai": "10:00",
@@ -283,8 +275,8 @@
      "dosen": "dr. Heppy Jelita Sari Batubara, M.K.M, Sp.KKLP",
      "status": "",
      "jenis": "kuliah",
-     "mulai": "13:30",
-     "selesai": "14:30"
+     "mulai": "14:30",
+     "selesai": "15:30"
     }
    ]
   },
@@ -299,8 +291,8 @@
      "dosen": "Prof. Dr. dr. Elmeida Effendy, M.Ked., Sp.K.J., Subsp.B.P. (K)",
      "status": "ditunda",
      "jenis": "kuliah",
-     "mulai": "09:00",
-     "selesai": "10:00"
+     "mulai": "08:00",
+     "selesai": "09:00"
     }
    ]
   },
@@ -311,11 +303,11 @@
    "forum": [],
    "sesi": [
     {
-     "judul": "KKD BM",
-     "dosen": "",
-     "status": "",
-     "jenis": "kkd",
-     "mulai": "08:00",
+     "judul": "Bag.Ilmu Kedokteran Jiwa",
+     "dosen": "Prof. Dr. dr. Elmeida Effendy, M.Ked., Sp.K.J., Subsp.B.P. (K)",
+     "status": "ditunda",
+     "jenis": "kuliah",
+     "mulai": "09:00",
      "selesai": "10:00"
     },
     {
@@ -325,14 +317,6 @@
      "jenis": "sgd",
      "mulai": "10:00",
      "selesai": "12:00"
-    },
-    {
-     "judul": "Bag.Ilmu Kedokteran Jiwa",
-     "dosen": "Prof. Dr. dr. Elmeida Effendy, M.Ked., Sp.K.J., Subsp.B.P. (K)",
-     "status": "",
-     "jenis": "kuliah",
-     "mulai": "13:30",
-     "selesai": "14:30"
     }
    ]
   },
@@ -350,12 +334,28 @@
    "forum": [],
    "sesi": [
     {
+     "judul": "KKD BM",
+     "dosen": "",
+     "status": "",
+     "jenis": "kkd",
+     "mulai": "08:00",
+     "selesai": "10:00"
+    },
+    {
      "judul": "Bag.Ilmu Kedokteran Jiwa",
      "dosen": "Prof. Dr. dr. Elmeida Effendy, M.Ked., Sp.K.J., Subsp.B.P. (K)",
      "status": "",
      "jenis": "kuliah",
-     "mulai": "09:00",
-     "selesai": "10:00"
+     "mulai": "10:00",
+     "selesai": "11:00"
+    },
+    {
+     "judul": "Bag.Ilmu Kedokteran Jiwa",
+     "dosen": "Prof. Dr. dr. Elmeida Effendy, M.Ked., Sp.K.J., Subsp.B.P. (K)",
+     "status": "ganti",
+     "jenis": "kuliah",
+     "mulai": "13:30",
+     "selesai": "14:30"
     }
    ]
   },
@@ -374,20 +374,12 @@
      "selesai": "12:00"
     },
     {
-     "judul": "Bag.Ilmu Kedokteran Jiwa",
-     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
-     "status": "",
-     "jenis": "kuliah",
-     "mulai": "14:30",
-     "selesai": "15:30"
-    },
-    {
      "judul": "KKD LO 1",
      "dosen": "",
      "status": "",
      "jenis": "kkd",
-     "mulai": "16:00",
-     "selesai": "18:00"
+     "mulai": "13:30",
+     "selesai": "15:30"
     }
    ]
   },
@@ -404,32 +396,32 @@
      "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
      "status": "",
      "jenis": "kuliah",
-     "mulai": "08:00",
-     "selesai": "09:00"
+     "mulai": "09:00",
+     "selesai": "10:00"
     },
     {
      "judul": "Advance TOEFL",
      "dosen": "Dr. Bambang Panca Syahputra, M.Hum",
      "status": "",
      "jenis": "kuliah",
-     "mulai": "09:00",
-     "selesai": "10:00"
+     "mulai": "10:00",
+     "selesai": "11:00"
     },
     {
      "judul": "Bag.Farmakologi",
      "dosen": "dr. Cut Mourisa, M.Biomed",
      "status": "",
      "jenis": "kuliah",
-     "mulai": "10:00",
-     "selesai": "11:00"
+     "mulai": "11:00",
+     "selesai": "12:00"
     },
     {
      "judul": "Health Management & Profesionalism: Health financing & health Insurance",
      "dosen": "dr. Yulia Afrina Nasution, M.K.M, Sp.KKLP, Subsp. FOMC",
      "status": "",
      "jenis": "kuliah",
-     "mulai": "13:30",
-     "selesai": "14:30"
+     "mulai": "14:30",
+     "selesai": "15:30"
     }
    ]
   },
@@ -443,23 +435,31 @@
    "sesi": [
     {
      "judul": "Bag.Ilmu Kedokteran Jiwa",
+     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
+    {
+     "judul": "Bag.Ilmu Kedokteran Jiwa",
      "dosen": "Prof. Dr. dr. Elmeida Effendy, M.Ked., Sp.K.J., Subsp.B.P. (K)",
      "status": "ganti",
      "jenis": "kuliah",
-     "mulai": "09:00",
-     "selesai": "10:00"
+     "mulai": "10:00",
+     "selesai": "11:00"
     },
     {
-     "judul": "Bag.Ilmu Penyakit Dalam",
-     "dosen": "dr. Dika Iyona Sinulingga, M.Ked (PD), Sp.PD, K-PPM",
+     "judul": "Bag.Ilmu Kedokteran Jiwa",
+     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
      "status": "",
      "jenis": "kuliah",
      "mulai": "13:30",
      "selesai": "14:30"
     },
     {
-     "judul": "Bag.Ilmu Kedokteran Jiwa",
-     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
+     "judul": "Bag.Ilmu Penyakit Dalam",
+     "dosen": "dr. Dika Iyona Sinulingga, M.Ked (PD), Sp.PD, K-PPM",
      "status": "",
      "jenis": "kuliah",
      "mulai": "14:30",
@@ -476,6 +476,14 @@
    ],
    "sesi": [
     {
+     "judul": "Bag.Ilmu Kedokteran Jiwa",
+     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
+    {
      "judul": "SGD 3",
      "dosen": "",
      "status": "",
@@ -483,39 +491,6 @@
      "mulai": "10:00",
      "selesai": "12:00"
     },
-    {
-     "judul": "Bag.Ilmu Kedokteran Jiwa",
-     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
-     "status": "",
-     "jenis": "kuliah",
-     "mulai": "13:30",
-     "selesai": "14:30"
-    },
-    {
-     "judul": "KKD LO 2",
-     "dosen": "",
-     "status": "",
-     "jenis": "kkd",
-     "mulai": "16:00",
-     "selesai": "18:00"
-    }
-   ]
-  },
-  {
-   "tanggal": "2026-10-24",
-   "hari": "Sabtu",
-   "catatan": "",
-   "forum": [],
-   "sesi": []
-  },
-  {
-   "tanggal": "2026-10-26",
-   "hari": "Senin",
-   "catatan": "",
-   "forum": [
-    "Adult Personality and Behavior Disorders II (dr. Nanda Sari Nuralita, M.Ked KJ, SpKJ) Chat forum 26/10/2026"
-   ],
-   "sesi": [
     {
      "judul": "Bag.Kedokteran Islam",
      "dosen": "Maulana Siregar, S.Ag., M.A",
@@ -535,21 +510,20 @@
    ]
   },
   {
-   "tanggal": "2026-10-27",
-   "hari": "Selasa",
+   "tanggal": "2026-10-24",
+   "hari": "Sabtu",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-10-26",
+   "hari": "Senin",
    "catatan": "",
    "forum": [
-    "Adult Personality and Behavior Disorders III (dr. Nanda Sari Nuralita, M.Ked KJ, SpKJ) Chat forum 27/10/2026"
+    "Adult Personality and Behavior Disorders II (dr. Nanda Sari Nuralita, M.Ked KJ, SpKJ) Chat forum 26/10/2026"
    ],
    "sesi": [
-    {
-     "judul": "Bag.Ilmu Gizi",
-     "dosen": "dr. Amelia Eka, M.Gizi",
-     "status": "",
-     "jenis": "kuliah",
-     "mulai": "08:00",
-     "selesai": "09:00"
-    },
     {
      "judul": "Bag.Ilmu Kedokteran Jiwa",
      "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
@@ -559,20 +533,38 @@
      "selesai": "10:00"
     },
     {
-     "judul": "KKD LO 3",
+     "judul": "KKD LO 2",
      "dosen": "",
      "status": "",
      "jenis": "kkd",
-     "mulai": "10:00",
-     "selesai": "12:00"
-    },
+     "mulai": "13:30",
+     "selesai": "15:30"
+    }
+   ]
+  },
+  {
+   "tanggal": "2026-10-27",
+   "hari": "Selasa",
+   "catatan": "",
+   "forum": [
+    "Adult Personality and Behavior Disorders III (dr. Nanda Sari Nuralita, M.Ked KJ, SpKJ) Chat forum 27/10/2026"
+   ],
+   "sesi": [
     {
      "judul": "Bag.Ilmu Kedokteran Jiwa",
      "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
      "status": "",
      "jenis": "kuliah",
-     "mulai": "14:30",
-     "selesai": "15:30"
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
+    {
+     "judul": "Bag.Ilmu Gizi",
+     "dosen": "dr. Amelia Eka, M.Gizi",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "09:00",
+     "selesai": "10:00"
     }
    ]
   },
@@ -585,24 +577,32 @@
    ],
    "sesi": [
     {
+     "judul": "Bag.Ilmu Kedokteran Jiwa",
+     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
+    {
      "judul": "Advance TOEFL",
      "dosen": "Dr. Bambang Panca Syahputra, M.Hum",
      "status": "",
      "jenis": "kuliah",
-     "mulai": "09:00",
-     "selesai": "10:00"
+     "mulai": "10:00",
+     "selesai": "11:00"
     },
     {
-     "judul": "Health Management & Profesionalism: Health financing & health Insurance",
-     "dosen": "dr. Royyan Ashri, M.K.M",
+     "judul": "Bag.Ilmu Kedokteran Jiwa",
+     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
      "status": "",
      "jenis": "kuliah",
      "mulai": "13:30",
      "selesai": "14:30"
     },
     {
-     "judul": "Bag.Ilmu Kedokteran Jiwa",
-     "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
+     "judul": "Health Management & Profesionalism: Health financing & health Insurance",
+     "dosen": "dr. Royyan Ashri, M.K.M",
      "status": "",
      "jenis": "kuliah",
      "mulai": "14:30",
@@ -621,8 +621,16 @@
      "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
      "status": "",
      "jenis": "kuliah",
+     "mulai": "09:00",
+     "selesai": "10:00"
+    },
+    {
+     "judul": "KKD LO 3",
+     "dosen": "",
+     "status": "",
+     "jenis": "kkd",
      "mulai": "13:30",
-     "selesai": "14:30"
+     "selesai": "15:30"
     }
    ]
   },
