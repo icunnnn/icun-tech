@@ -121,7 +121,7 @@ function init(data){
   const ks=Object.keys(byDate).sort(),t=iso(new Date());
   sel=byDate[t]?t:(ks.find(k=>k>t&&byDate[k].sesi.length)||ks.filter(k=>byDate[k].sesi.length).pop()||ks[0]);
   const up=D.meta.diperbarui?fmt(new Date(D.meta.diperbarui),{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}):"";
-  $("foot").innerHTML=(up?`Jadwal terakhir berubah: ${up}. `:"")+`Data diambil otomatis dari <a href="${esc(D.meta.sumber)}" rel="noopener">dokumen resmi fakultas</a>. Jika ada perbedaan, dokumen resmi yang berlaku. nana plenger`;
+  $("foot").innerHTML=(up?`Jadwal terakhir berubah: ${up}. `:"")+`Data diambil otomatis dari <a href="${esc(D.meta.sumber)}" rel="noopener">dokumen resmi fakultas</a>. Jika ada perbedaan, dokumen resmi yang berlaku.`;
   $("prev").onclick=()=>step(-1);$("next").onclick=()=>step(1);
   $("today").onclick=()=>{const k=iso(new Date());go(k)};
   $("week").onclick=e=>{const b=e.target.closest("button");if(b)go(b.dataset.d)};
