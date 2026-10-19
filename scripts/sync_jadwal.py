@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 
 URL = ("https://docs.google.com/document/d/e/"
        "2PACX-1vRKAk68agqoX2OTSK2-XvxVEWf4ZDDq7W8zm8vvzhGb1W1DGjLsUGjI6eFQYaHl3dbLtyU3D9PezHBA/pub")
-KELAS = "2023 B"
+KELAS = "2023 C"
 OUT = Path(__file__).resolve().parent.parent / "jadwal.json"
 
 HARI = {"SENIN": 0, "SELASA": 1, "RABU": 2, "KAMIS": 3, "JUMAT": 4, "SABTU": 5, "MINGGU": 6}
@@ -123,8 +123,12 @@ def parse(html, kelas=KELAS, today=None):
         col_found = True
         if not ruang:
             head = g[(0, idx)]
-            r = re.search(r"R\.KELAS (\w+) LT\.(\d+) (\w+)", head.upper())
-            ruang = f"Ruang Kelas {r[1]}, Lt. {r[2]}, Gedung {r[3]}" if r else head[len(kelas):].strip().title()
+            r = re.search(r"R\.KELAS (.+?) LT\.(\d+) (\w+)$", head.upper())
+            if r:
+                nama = r[1].title() if r[1].startswith("AULA") else f"Ruang Kelas {r[1]}"
+                ruang = f"{nama}, Lt. {r[2]}, Gedung {r[3]}"
+            else:
+                ruang = head[len(kelas):].strip().title()
         date = infer_date(wd, dd, bulan, today) if bulan else None
         if date is None:
             warnings.append(f"Tanggal tidak cocok dengan nama hari, dilewati: {title}")
@@ -178,7 +182,7 @@ def main():
         print(f"GAGAL: {e}", file=sys.stderr)
         sys.exit(1)
     old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else None
-    if old and old.get("hari") == data["hari"] and old["meta"].get("ruang") == data["meta"]["ruang"]:
+    if old and old.get("hari") == data["hari"] and old["meta"].get("ruang") == data["meta"]["ruang"] and old["meta"].get("kelas") == data["meta"]["kelas"]:
         print("Tidak ada perubahan.")
         return
     data["meta"]["diperbarui"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
