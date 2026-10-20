@@ -25,7 +25,7 @@
    "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 01 DESEMBER 2025",
    "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 02 DESEMBER 2025"
   ],
-  "diperbarui": "2026-10-19T05:39:33+00:00"
+  "diperbarui": "2026-10-20T10:17:10+00:00"
  },
  "hari": [
   {
@@ -526,6 +526,14 @@
    "sesi": [
     {
      "judul": "Bag.Ilmu Kedokteran Jiwa",
+     "dosen": "Prof. Dr. dr. Elmeida Effendy, M.Ked., Sp.K.J., Subsp.B.P. (K)",
+     "status": "ganti",
+     "jenis": "kuliah",
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
+    {
+     "judul": "Bag.Ilmu Kedokteran Jiwa",
      "dosen": "dr.Nanda Sari Nuralita, M.Ked KJ, SpKJ",
      "status": "",
      "jenis": "kuliah",
@@ -561,10 +569,18 @@
     {
      "judul": "Bag.Ilmu Gizi",
      "dosen": "dr. Amelia Eka, M.Gizi",
-     "status": "",
+     "status": "ditunda",
      "jenis": "kuliah",
      "mulai": "09:00",
      "selesai": "10:00"
+    },
+    {
+     "judul": "Bag.Ilmu Gizi",
+     "dosen": "dr. Amelia Eka, M.Gizi",
+     "status": "ganti",
+     "jenis": "kuliah",
+     "mulai": "11:00",
+     "selesai": "12:00"
     }
    ]
   },
