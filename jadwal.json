@@ -25,7 +25,7 @@
    "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 01 DESEMBER 2025",
    "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 02 DESEMBER 2025"
   ],
-  "diperbarui": "2026-10-20T10:17:10+00:00"
+  "diperbarui": "2026-10-21T05:29:27+00:00"
  },
  "hari": [
   {
@@ -410,7 +410,7 @@
     {
      "judul": "Bag.Farmakologi",
      "dosen": "dr. Cut Mourisa, M.Biomed",
-     "status": "",
+     "status": "ditunda",
      "jenis": "kuliah",
      "mulai": "11:00",
      "selesai": "12:00"
