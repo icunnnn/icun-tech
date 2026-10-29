@@ -25,7 +25,7 @@
    "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 08 DESEMBER 2025",
    "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 09 DESEMBER 2025"
   ],
-  "diperbarui": "2026-10-25T10:18:42+00:00"
+  "diperbarui": "2026-10-29T06:14:53+00:00"
  },
  "hari": [
   {
@@ -663,31 +663,31 @@
    "hari": "Jumat",
    "catatan": "",
    "forum": [],
-   "sesi": []
+   "sesi": [
+    {
+     "judul": "UJIAN BLOK SESI I (CBT) DI GEDUNG PASCASARJANA (13.00-15.30)",
+     "dosen": "",
+     "status": "",
+     "jenis": "ujian",
+     "mulai": "13:30",
+     "selesai": "15:30"
+    },
+    {
+     "judul": "UJIAN BLOK SESI II (CBT) DI GEDUNG PASCASARJANA (15.00-17.30)",
+     "dosen": "",
+     "status": "",
+     "jenis": "ujian",
+     "mulai": "16:00",
+     "selesai": "18:00"
+    }
+   ]
   },
   {
    "tanggal": "2026-10-31",
    "hari": "Sabtu",
    "catatan": "",
    "forum": [],
-   "sesi": [
-    {
-     "judul": "UJIAN BLOK SESI I (CBT) DI GEDUNG PASCASARJANA (07.30-10.00)",
-     "dosen": "",
-     "status": "",
-     "jenis": "ujian",
-     "mulai": "08:00",
-     "selesai": "10:00"
-    },
-    {
-     "judul": "UJIAN BLOK SESI II (CBT) DI GEDUNG PASCASARJANA (09.30-12.00)",
-     "dosen": "",
-     "status": "",
-     "jenis": "ujian",
-     "mulai": "10:00",
-     "selesai": "12:00"
-    }
-   ]
+   "sesi": []
   },
   {
    "tanggal": "2026-11-02",
