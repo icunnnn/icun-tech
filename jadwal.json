@@ -25,7 +25,7 @@
    "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 08 DESEMBER 2025",
    "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 09 DESEMBER 2025"
   ],
-  "diperbarui": "2026-10-29T06:14:53+00:00"
+  "diperbarui": "2026-10-30T09:12:27+00:00"
  },
  "hari": [
   {
@@ -693,84 +693,367 @@
    "tanggal": "2026-11-02",
    "hari": "Senin",
    "catatan": "",
-   "forum": [],
-   "sesi": []
+   "forum": [
+    "Block Introduction: dr. Ismatul Fauziah Rambe, M. Biomed"
+   ],
+   "sesi": [
+    {
+     "judul": "KKD 1",
+     "dosen": "",
+     "status": "",
+     "jenis": "kkd",
+     "mulai": "08:00",
+     "selesai": "10:00"
+    },
+    {
+     "judul": "Bag.Bedah",
+     "dosen": "dr. Taufik Akbar Faried Lubis, Sp. BP-RE",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "10:00",
+     "selesai": "11:00"
+    },
+    {
+     "judul": "Bag.Anastesi",
+     "dosen": "dr. Muhammad Jalaluddin Assuyuthi Chalil, M.Ked(An)., Sp.An,-TI., Subsp.MN(K)",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "11:00",
+     "selesai": "12:00"
+    },
+    {
+     "judul": "Bag.Anastesi",
+     "dosen": "dr. R. Andika Dwi Cahyadi, M. Ked (An)",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "13:30",
+     "selesai": "14:30"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-03",
    "hari": "Selasa",
    "catatan": "",
    "forum": [],
-   "sesi": []
+   "sesi": [
+    {
+     "judul": "Bag.Bedah",
+     "dosen": "dr. Heri Gunanti Surbakti, M.Ked(Surg), Sp.B",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
+    {
+     "judul": "Bag.IKA",
+     "dosen": "Dr. dr. Eka Airlangga, M.Ked (Ped)., Sp.A",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "09:00",
+     "selesai": "10:00"
+    },
+    {
+     "judul": "SGD 1",
+     "dosen": "",
+     "status": "",
+     "jenis": "sgd",
+     "mulai": "10:00",
+     "selesai": "12:00"
+    },
+    {
+     "judul": "KKD 2",
+     "dosen": "",
+     "status": "",
+     "jenis": "kkd",
+     "mulai": "16:00",
+     "selesai": "18:00"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-04",
    "hari": "Rabu",
    "catatan": "",
    "forum": [],
-   "sesi": []
+   "sesi": [
+    {
+     "judul": "Bag.Ortopedi",
+     "dosen": "dr. Mohammad Shahreza, M.Ked (Surg)., Sp. OT",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "09:00",
+     "selesai": "10:00"
+    },
+    {
+     "judul": "Advance TOEFL",
+     "dosen": "Dr. Bambang Panca Syahputra, M.Hum",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "10:00",
+     "selesai": "11:00"
+    },
+    {
+     "judul": "Bag.Anastesi",
+     "dosen": "dr. Muhammad Jalaluddin Assuyuthi Chalil, M.Ked(An)., Sp.An,-TI., Subsp.MN(K)",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "11:00",
+     "selesai": "12:00"
+    },
+    {
+     "judul": "Health Management & Profesionalism: Health financing & health Insurance",
+     "dosen": "dr. Heppy Jelita Sari Batubara, M.K.M, Sp.KKLP",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "14:30",
+     "selesai": "15:30"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-05",
    "hari": "Kamis",
    "catatan": "",
-   "forum": [],
-   "sesi": []
+   "forum": [
+    "Intoxication in Pediatric (dr. M. Hatta, M. Ked (Ped), Sp. A): Chat forum on 05 November 2026",
+    "Early Treatment in Burn Injury (dr. Taufik Akbar Faried Lubis, Sp. BP- RE): Chat Forum on 05 November 2026"
+   ],
+   "sesi": [
+    {
+     "judul": "Bag.Anastesi",
+     "dosen": "dr. Irfan Hamdani, Sp.An-TI, FCC",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "11:00",
+     "selesai": "12:00"
+    },
+    {
+     "judul": "Bag.Anastesi",
+     "dosen": "dr. Muhammad Jalaluddin Assuyuthi Chalil, M.Ked(An)., Sp.An,-TI., Subsp.MN(K)",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "13:30",
+     "selesai": "14:30"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-06",
    "hari": "Jumat",
    "catatan": "",
-   "forum": [],
-   "sesi": []
+   "forum": [
+    "Emergency in internal medicine (Assoc. Prof. Dr. dr. Shahrul Rahman, Sp.PD- FINASIM) Chat Forum on 06 November 2026",
+    "Pharmacology of drug used in shock (dr. Ilham Hariaji, M. Biomed) Chat Forum on 06 November 2026"
+   ],
+   "sesi": [
+    {
+     "judul": "SGD 1",
+     "dosen": "",
+     "status": "",
+     "jenis": "sgd",
+     "mulai": "10:00",
+     "selesai": "12:00"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-07",
    "hari": "Sabtu",
    "catatan": "",
-   "forum": [],
+   "forum": [
+    "Toxicology (dr. Lita Septina Chaniago, Sp.PD, K-EMD) Chat Forum on 07 November 2026"
+   ],
    "sesi": []
   },
   {
    "tanggal": "2026-11-09",
    "hari": "Senin",
    "catatan": "",
-   "forum": [],
-   "sesi": []
+   "forum": [
+    "Burn injury 2 (dr. Taufik Akbar Faried Lubis, Sp. BP- RE): Chat Forum on 09 November 2026",
+    "Nutrition on perioperative (dr. Fitri Nur Malini Siregar, Sp.GK) Chat Forum on 09 November 2026"
+   ],
+   "sesi": [
+    {
+     "judul": "Bag.Anastesi",
+     "dosen": "dr. Andri Yunafri, M.Ked(An)., Sp.An-TI, FCC",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
+    {
+     "judul": "Bag.Bedah",
+     "dosen": "dr. Heri Gunanti Surbakti, M.Ked(Surg), Sp.B",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "09:00",
+     "selesai": "10:00"
+    },
+    {
+     "judul": "KKD 3",
+     "dosen": "",
+     "status": "",
+     "jenis": "kkd",
+     "mulai": "16:00",
+     "selesai": "18:00"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-10",
    "hari": "Selasa",
    "catatan": "",
    "forum": [],
-   "sesi": []
+   "sesi": [
+    {
+     "judul": "Bag.Anastesi",
+     "dosen": "dr. Irfan Hamdani, Sp.An-TI, FCC",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
+    {
+     "judul": "Bag.Bedah",
+     "dosen": "Dr. dr. Ery Suhaymi, SH, MH, M.Ked(Surg), Sp.B, FINACS, FICS",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "09:00",
+     "selesai": "10:00"
+    },
+    {
+     "judul": "SGD 2",
+     "dosen": "",
+     "status": "",
+     "jenis": "sgd",
+     "mulai": "10:00",
+     "selesai": "12:00"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-11",
    "hari": "Rabu",
    "catatan": "",
-   "forum": [],
-   "sesi": []
+   "forum": [
+    "Emergency in plastic surgery (dr. Taufik Akbar Faried Lubis, Sp.BP): Chat Forum on 11 November 2026"
+   ],
+   "sesi": [
+    {
+     "judul": "Bag.IKA",
+     "dosen": "dr. M. Hatta, M.Ked(Ped)., Sp.A",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
+    {
+     "judul": "Bag.Bedah",
+     "dosen": "Dr. dr. Ery Suhaymi, SH, MH, M.Ked(Surg), Sp.B, FINACS, FICS",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "09:00",
+     "selesai": "10:00"
+    },
+    {
+     "judul": "Advance TOEFL",
+     "dosen": "Dr. Bambang Panca Syahputra, M.Hum",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "10:00",
+     "selesai": "11:00"
+    },
+    {
+     "judul": "Bag.Gizi",
+     "dosen": "dr. Fitri Nur Malini Siregar, Sp.GK",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "11:00",
+     "selesai": "12:00"
+    },
+    {
+     "judul": "Health Management & Profesionalism: Health financing & health Insurance",
+     "dosen": "dr. Pinta Pudiyanti Siregar, M.Sc, Ph.D",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "14:30",
+     "selesai": "15:30"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-12",
    "hari": "Kamis",
    "catatan": "",
    "forum": [],
-   "sesi": []
+   "sesi": [
+    {
+     "judul": "Bag.Rehabilitasi Medik",
+     "dosen": "dr. Ananda Marina, Sp. KFR",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "09:00",
+     "selesai": "10:00"
+    },
+    {
+     "judul": "Bag.Forensik",
+     "dosen": "dr. Abdul Gafar Parinduri, M.Ked(For)., Sp.F",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "13:30",
+     "selesai": "14:30"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-13",
    "hari": "Jumat",
    "catatan": "",
    "forum": [],
-   "sesi": []
+   "sesi": [
+    {
+     "judul": "Bag.Anastesi",
+     "dosen": "dr. Andri Yunafri, M.Ked(An)., Sp.An-TI, FCC",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
+    {
+     "judul": "Bag.Ortopedi",
+     "dosen": "dr. Mohammad Shahreza, M.Ked(Surg)., Sp.OT",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "09:00",
+     "selesai": "10:00"
+    },
+    {
+     "judul": "SGD 2",
+     "dosen": "",
+     "status": "",
+     "jenis": "sgd",
+     "mulai": "10:00",
+     "selesai": "12:00"
+    },
+    {
+     "judul": "KKD BM",
+     "dosen": "",
+     "status": "",
+     "jenis": "kkd",
+     "mulai": "16:00",
+     "selesai": "18:00"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-14",
    "hari": "Sabtu",
    "catatan": "",
-   "forum": [],
+   "forum": [
+    "Thoraxic Trauma 2 (Dr. dr. Ery Suhaymi, SH, MH, M.Ked(Surg), Sp.B, FINACS, FICS) Chat Forum on 14 November 2026"
+   ],
    "sesi": []
   },
   {
@@ -785,14 +1068,40 @@
    "hari": "Selasa",
    "catatan": "",
    "forum": [],
-   "sesi": []
+   "sesi": [
+    {
+     "judul": "KKD LO 1",
+     "dosen": "",
+     "status": "",
+     "jenis": "kkd",
+     "mulai": "10:00",
+     "selesai": "12:00"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-18",
    "hari": "Rabu",
    "catatan": "",
    "forum": [],
-   "sesi": []
+   "sesi": [
+    {
+     "judul": "Advance TOEFL",
+     "dosen": "Dr. Bambang Panca Syahputra, M.Hum",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "10:00",
+     "selesai": "11:00"
+    },
+    {
+     "judul": "Health Management & Profesionalism: Health financing & health Insurance",
+     "dosen": "dr. Heppy Jelita Sari Batubara, M.K.M, Sp.KKLP",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "14:30",
+     "selesai": "15:30"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-19",
