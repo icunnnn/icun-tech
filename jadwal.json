@@ -25,7 +25,7 @@
    "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 08 DESEMBER 2025",
    "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 09 DESEMBER 2025"
   ],
-  "diperbarui": "2026-10-30T09:12:27+00:00"
+  "diperbarui": "2026-10-30T15:54:28+00:00"
  },
  "hari": [
   {
@@ -1086,6 +1086,14 @@
    "forum": [],
    "sesi": [
     {
+     "judul": "Bag.Ortopedi",
+     "dosen": "dr. Mohammad Shahreza, M.Ked(Surg)., Sp.OT",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
+    {
      "judul": "Advance TOEFL",
      "dosen": "Dr. Bambang Panca Syahputra, M.Hum",
      "status": "",
@@ -1108,14 +1116,40 @@
    "hari": "Kamis",
    "catatan": "",
    "forum": [],
-   "sesi": []
+   "sesi": [
+    {
+     "judul": "KKD LO 2",
+     "dosen": "",
+     "status": "",
+     "jenis": "kkd",
+     "mulai": "13:30",
+     "selesai": "15:30"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-20",
    "hari": "Jumat",
    "catatan": "",
    "forum": [],
-   "sesi": []
+   "sesi": [
+    {
+     "judul": "UJIAN BLOK SESI I (CBT) DI GEDUNG PASCASARJANA (07.30-10.00)",
+     "dosen": "",
+     "status": "",
+     "jenis": "ujian",
+     "mulai": "08:00",
+     "selesai": "10:00"
+    },
+    {
+     "judul": "UJIAN BLOK SESI II (CBT) DI GEDUNG PASCASARJANA (09.30-12.00)",
+     "dosen": "",
+     "status": "",
+     "jenis": "ujian",
+     "mulai": "10:00",
+     "selesai": "12:00"
+    }
+   ]
   },
   {
    "tanggal": "2026-11-21",
