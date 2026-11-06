@@ -4,28 +4,28 @@
   "ruang": "Aula Ibnu Sina, Lt. 7, Gedung B",
   "sumber": "https://docs.google.com/document/d/e/2PACX-1vRKAk68agqoX2OTSK2-XvxVEWf4ZDDq7W8zm8vvzhGb1W1DGjLsUGjI6eFQYaHl3dbLtyU3D9PezHBA/pub",
   "peringatan": [
-   "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 17 NOVEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 18 NOVEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: RABU, 19 NOVEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: KAMIS, 20 NOVEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: JUMAT, 21 NOVEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: SABTU, 22 NOVEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 24 NOVEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 25 NOVEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: RABU, 26 NOVEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: KAMIS, 27 NOVEMBER 2025 JADWAL OFFLINE/LURING DI RESCEDULE",
-   "Tanggal tidak cocok dengan nama hari, dilewati: JUMAT, 28 NOVEMBER 2025 JADWAL OFFLINE/LURING DI RESCEDULE",
-   "Tanggal tidak cocok dengan nama hari, dilewati: SABTU, 29 NOVEMBER 2025 JADWAL OFFLINE/LURING DI RESCEDULE",
-   "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 01 DESEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 02 DESEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: RABU, 03 DESEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: KAMIS, 04 DESEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: JUMAT, 05 DESEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: SABTU, 06 DESEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 08 DESEMBER 2025",
-   "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 09 DESEMBER 2025"
+   "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 29 DESEMBER 2025",
+   "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 30 DESEMBER 2025",
+   "Tanggal tidak cocok dengan nama hari, dilewati: RABU, 31 DESEMBER 2025",
+   "Tanggal tidak cocok dengan nama hari, dilewati: KAMIS, 01 JANUARI 2026 (LIBUR TAHUN BARU)",
+   "Tanggal tidak cocok dengan nama hari, dilewati: JUMAT, 02 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: SABTU, 03 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 05 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 06 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: RABU, 07 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: KAMIS, 08 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: JUMAT, 09 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: SABTU, 10 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 12 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 13 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: RABU, 14 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: KAMIS, 15 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: JUMAT, 16 JANUARI 2026 (LIBUR ISRA MI’RAJ)",
+   "Tanggal tidak cocok dengan nama hari, dilewati: SABTU, 17 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 19 JANUARI 2026",
+   "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 20 JANUARI 2026"
   ],
-  "diperbarui": "2026-11-05T07:05:43+00:00"
+  "diperbarui": "2026-11-06T08:40:51+00:00"
  },
  "hari": [
   {
@@ -1161,6 +1161,258 @@
   },
   {
    "tanggal": "2026-11-21",
+   "hari": "Sabtu",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-11-23",
+   "hari": "Senin",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-11-24",
+   "hari": "Selasa",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-11-25",
+   "hari": "Rabu",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-11-26",
+   "hari": "Kamis",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-11-27",
+   "hari": "Jumat",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-11-28",
+   "hari": "Sabtu",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-11-30",
+   "hari": "Senin",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-01",
+   "hari": "Selasa",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-02",
+   "hari": "Rabu",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-03",
+   "hari": "Kamis",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-04",
+   "hari": "Jumat",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-05",
+   "hari": "Sabtu",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-07",
+   "hari": "Senin",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-08",
+   "hari": "Selasa",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-09",
+   "hari": "Rabu",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-10",
+   "hari": "Kamis",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-11",
+   "hari": "Jumat",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-12",
+   "hari": "Sabtu",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-14",
+   "hari": "Senin",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-15",
+   "hari": "Selasa",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-16",
+   "hari": "Rabu",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-17",
+   "hari": "Kamis",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-18",
+   "hari": "Jumat",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-19",
+   "hari": "Sabtu",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-21",
+   "hari": "Senin",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-22",
+   "hari": "Selasa",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-23",
+   "hari": "Rabu",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-24",
+   "hari": "Kamis",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-25",
+   "hari": "Jumat",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-26",
+   "hari": "Sabtu",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-28",
+   "hari": "Senin",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-29",
+   "hari": "Selasa",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-30",
+   "hari": "Rabu",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2026-12-31",
+   "hari": "Kamis",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2027-01-01",
+   "hari": "Jumat",
+   "catatan": "",
+   "forum": [],
+   "sesi": []
+  },
+  {
+   "tanggal": "2027-01-02",
    "hari": "Sabtu",
    "catatan": "",
    "forum": [],
