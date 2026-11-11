@@ -25,7 +25,7 @@
    "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 19 JANUARI 2026",
    "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 20 JANUARI 2026"
   ],
-  "diperbarui": "2026-11-10T03:39:42+00:00"
+  "diperbarui": "2026-11-11T11:32:41+00:00"
  },
  "hari": [
   {
@@ -997,6 +997,14 @@
    "catatan": "",
    "forum": [],
    "sesi": [
+    {
+     "judul": "Bag.Anastesi",
+     "dosen": "dr. Irfan Hamdani, Sp.An-TI, FCC",
+     "status": "ganti",
+     "jenis": "kuliah",
+     "mulai": "08:00",
+     "selesai": "09:00"
+    },
     {
      "judul": "Bag.Rehabilitasi Medik",
      "dosen": "dr. Ananda Marina, Sp. KFR",
