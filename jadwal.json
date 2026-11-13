@@ -25,7 +25,7 @@
    "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 19 JANUARI 2026",
    "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 20 JANUARI 2026"
   ],
-  "diperbarui": "2026-11-12T09:54:57+00:00"
+  "diperbarui": "2026-11-13T03:00:23+00:00"
  },
  "hari": [
   {
@@ -1054,9 +1054,9 @@
      "selesai": "12:00"
     },
     {
-     "judul": "Bag.Ortopedi",
+     "judul": "(R.KELAS D LT.5) KULIAH GANTI Bag.Ortopedi",
      "dosen": "dr. Mohammad Shahreza, M.Ked (Surg)., Sp. OT",
-     "status": "ganti",
+     "status": "",
      "jenis": "kuliah",
      "mulai": "13:30",
      "selesai": "14:30"
