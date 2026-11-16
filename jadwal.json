@@ -25,7 +25,7 @@
    "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 19 JANUARI 2026",
    "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 20 JANUARI 2026"
   ],
-  "diperbarui": "2026-11-13T03:00:23+00:00"
+  "diperbarui": "2026-11-16T17:45:48+00:00"
  },
  "hari": [
   {
@@ -1111,7 +1111,7 @@
    "sesi": [
     {
      "judul": "Bag.Ortopedi",
-     "dosen": "dr. Mohammad Shahreza, M.Ked(Surg)., Sp.OT",
+     "dosen": "dr. Mohammad Shahreza, M.Ked(Surg)., Sp.OT /Dr. dr. Ery Suhaymi, SH, MH, M.Ked(Surg), Sp.B, FINACS, FICS",
      "status": "",
      "jenis": "kuliah",
      "mulai": "08:00",
@@ -1264,7 +1264,16 @@
    "hari": "Sabtu",
    "catatan": "",
    "forum": [],
-   "sesi": []
+   "sesi": [
+    {
+     "judul": "UTS ADVANCE TOEFL",
+     "dosen": "PBT) DI GEDUNG FKIK (11.00-12.00",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "11:00",
+     "selesai": "12:00"
+    }
+   ]
   },
   {
    "tanggal": "2026-12-07",
@@ -1306,7 +1315,16 @@
    "hari": "Sabtu",
    "catatan": "",
    "forum": [],
-   "sesi": []
+   "sesi": [
+    {
+     "judul": "UTS HEALTH MANAGEMENT",
+     "dosen": "PBT) DI GEDUNG FKIK (11.00-12.00",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "11:00",
+     "selesai": "12:00"
+    }
+   ]
   },
   {
    "tanggal": "2026-12-14",
