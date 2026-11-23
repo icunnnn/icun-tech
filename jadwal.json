@@ -25,7 +25,7 @@
    "Tanggal tidak cocok dengan nama hari, dilewati: SENIN, 19 JANUARI 2026",
    "Tanggal tidak cocok dengan nama hari, dilewati: SELASA, 20 JANUARI 2026"
   ],
-  "diperbarui": "2026-11-20T14:14:44+00:00"
+  "diperbarui": "2026-11-23T03:50:48+00:00"
  },
  "hari": [
   {
@@ -1181,6 +1181,22 @@
    "catatan": "",
    "forum": [],
    "sesi": []
+  },
+  {
+   "tanggal": "2026-11-25",
+   "hari": "Rabu",
+   "catatan": "",
+   "forum": [],
+   "sesi": [
+    {
+     "judul": "Advance TOEFL",
+     "dosen": "Dr. Bambang Panca Syahputra, M.Hum",
+     "status": "",
+     "jenis": "kuliah",
+     "mulai": "10:00",
+     "selesai": "11:00"
+    }
+   ]
   },
   {
    "tanggal": "2026-12-05",
